@@ -1,0 +1,108 @@
+fieldset{
+  margin: 1px 1px 1px 1px;
+  border-style: solid solid solid solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: green;
+  border-radius: 25px
+
+
+}
+ body{
+	padding-left: 15px;
+	background-image: url(avatar.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+ }
+
+ .text_label{
+   color: black;
+ }
+
+ input.submit{
+   background-color: blue;
+   color: white;
+   margin: 5px 5px 5px 290px;
+ }
+
+ input.submit:hover{
+   background-color: white;
+   color: blue;
+ }
+
+ input.submit:active{
+   color: black;
+ }
+
+ input.text_input, textarea.text_input{
+   color: gray;
+ }
+
+ input.text_input:focus, textarea.text_input:focus{
+   color: black;
+ }
+
+ input.text, textarea.text{
+   color: gray;
+ }
+
+ input.text:focus, textarea.text:focus{
+   color: black;
+ }
+
+.contact{
+  background-color: rgb(0,112,184);
+	color:white;
+	border-radius:5px;
+}
+
+.field{
+  width: 350px
+}
+
+.row{
+  padding: 2px 0px 2px 0px;
+}
+.submit{
+
+}
+
+.textl{
+  float:left;
+	width:150px;
+	text-align: right;
+	padding-right: 5px;
+  color:black;
+}
+
+.text_input{
+  width: 164px;
+  text-align: left;
+  padding: 0px 0px 0px 5px
+}
+
+.request{
+  color: black;
+}
+
+.radio{
+  color: black;
+}
+
+.Warn{
+	color: red
+}
+
+.Hidden{
+	display: none;
+	visibility: hidden;
+}
+
+textarea{
+  width: 400px;
+  height: 150px;
+  background-image: url(Witcher.jpg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto 100px;
+
+}
